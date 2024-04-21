@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+/home/i0961775/Descargas/practicaObligatoria/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+1172564264.index
+282969369.index
+1231805351.index
+448667347.index
+1629856408.index
+693314603.index

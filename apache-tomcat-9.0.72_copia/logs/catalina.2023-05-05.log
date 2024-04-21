@@ -1,0 +1,689 @@
+05-May-2023 11:18:17.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 11:18:17.723 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 11:18:17.723 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 11:18:17.723 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 11:18:17.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 11:18:17.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 11:18:17.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 11:18:17.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 11:18:17.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 11:18:17.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:18:17.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:18:17.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 11:18:17.725 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 11:18:17.725 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 11:18:17.725 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 11:18:17.725 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 11:18:17.725 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 11:18:17.725 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:18:17.725 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:18:17.725 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/temp
+05-May-2023 11:18:17.726 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 11:18:18.104 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 11:18:18.126 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [566] milliseconds
+05-May-2023 11:18:18.152 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 11:18:18.152 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 11:18:18.161 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 11:18:18.450 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [288] ms
+05-May-2023 11:18:18.451 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 11:18:18.512 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [60] ms
+05-May-2023 11:18:18.513 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 11:18:18.557 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [32] ms
+05-May-2023 11:18:18.557 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 11:18:18.574 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [17] ms
+05-May-2023 11:18:18.574 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 11:18:18.864 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [289] ms
+05-May-2023 11:18:18.864 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 11:18:19.570 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 11:18:20.313 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.449] ms
+05-May-2023 11:18:20.316 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:18:20.324 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2197] milliseconds
+05-May-2023 11:21:02.598 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+05-May-2023 11:21:02.598 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:21:02.601 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 11:21:02.620 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:21:02.624 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:21:04.584 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 11:21:04.586 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 11:21:04.586 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 11:21:04.586 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 11:21:04.587 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 11:21:04.587 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 11:21:04.587 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 11:21:04.587 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 11:21:04.587 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 11:21:04.587 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:21:04.587 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:21:04.588 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 11:21:04.588 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 11:21:04.588 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 11:21:04.588 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 11:21:04.588 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 11:21:04.588 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 11:21:04.588 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:21:04.588 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:21:04.588 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/temp
+05-May-2023 11:21:04.590 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 11:21:04.941 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 11:21:04.971 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [567] milliseconds
+05-May-2023 11:21:05.010 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 11:21:05.010 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 11:21:05.018 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 11:21:05.301 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [282] ms
+05-May-2023 11:21:05.302 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 11:21:05.395 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [92] ms
+05-May-2023 11:21:05.395 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 11:21:05.418 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [22] ms
+05-May-2023 11:21:05.418 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 11:21:05.444 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [26] ms
+05-May-2023 11:21:05.444 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 11:21:05.802 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [357] ms
+05-May-2023 11:21:05.807 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 11:21:06.446 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 11:21:07.267 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.461] ms
+05-May-2023 11:21:07.273 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:21:07.285 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2313] milliseconds
+05-May-2023 11:23:40.691 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+05-May-2023 11:23:40.692 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:23:40.694 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 11:23:40.719 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:23:40.726 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:30:20.925 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 11:30:20.927 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 11:30:20.927 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 11:30:20.927 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 11:30:20.927 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 11:30:20.927 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 11:30:20.928 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 11:30:20.928 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 11:30:20.928 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 11:30:20.928 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:30:20.928 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:30:20.928 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 11:30:20.928 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 11:30:20.928 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 11:30:20.929 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 11:30:20.929 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 11:30:20.929 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 11:30:20.929 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:30:20.929 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:30:20.929 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/temp
+05-May-2023 11:30:20.931 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 11:30:21.267 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 11:30:21.303 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [531] milliseconds
+05-May-2023 11:30:21.337 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 11:30:21.337 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 11:30:21.347 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 11:30:21.621 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [273] ms
+05-May-2023 11:30:21.621 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 11:30:21.666 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [45] ms
+05-May-2023 11:30:21.667 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 11:30:21.709 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [41] ms
+05-May-2023 11:30:21.709 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 11:30:21.724 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [15] ms
+05-May-2023 11:30:21.725 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 11:30:22.100 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [376] ms
+05-May-2023 11:30:22.101 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 11:30:22.670 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 11:30:23.500 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.399] ms
+05-May-2023 11:30:23.510 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:30:23.532 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2227] milliseconds
+05-May-2023 11:30:42.438 INFORMACIÓN [Thread-2] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:30:42.443 INFORMACIÓN [Thread-2] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 11:30:42.465 INFORMACIÓN [Thread-2] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:30:42.476 INFORMACIÓN [Thread-2] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:31:19.023 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 11:31:19.025 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 11:31:19.025 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 11:31:19.025 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 11:31:19.025 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 11:31:19.025 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 11:31:19.025 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 11:31:19.025 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 11:31:19.025 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 11:31:19.026 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:31:19.026 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:31:19.026 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 11:31:19.026 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 11:31:19.026 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 11:31:19.026 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 11:31:19.026 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 11:31:19.026 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 11:31:19.026 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:31:19.027 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:31:19.027 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/temp
+05-May-2023 11:31:19.028 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 11:31:19.346 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 11:31:19.373 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [509] milliseconds
+05-May-2023 11:31:19.418 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 11:31:19.419 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 11:31:19.427 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 11:31:19.773 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [346] ms
+05-May-2023 11:31:19.784 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 11:31:19.827 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [43] ms
+05-May-2023 11:31:19.827 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 11:31:19.848 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [21] ms
+05-May-2023 11:31:19.848 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 11:31:19.875 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [26] ms
+05-May-2023 11:31:19.875 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 11:31:20.234 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [358] ms
+05-May-2023 11:31:20.234 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 11:31:20.822 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 11:31:21.672 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.438] ms
+05-May-2023 11:31:21.676 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:31:21.690 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2317] milliseconds
+05-May-2023 11:34:37.081 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+05-May-2023 11:34:37.082 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:34:37.091 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 11:34:37.168 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:34:37.181 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:39:59.719 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 11:39:59.721 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 11:39:59.721 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 11:39:59.721 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 11:39:59.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 11:39:59.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 11:39:59.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 11:39:59.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 11:39:59.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 11:39:59.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:39:59.722 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:39:59.723 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 11:39:59.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 11:39:59.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 11:39:59.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 11:39:59.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 11:39:59.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 11:39:59.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:39:59.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:39:59.724 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/temp
+05-May-2023 11:39:59.727 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 11:40:00.113 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 11:40:00.157 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [593] milliseconds
+05-May-2023 11:40:00.182 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 11:40:00.182 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 11:40:00.191 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 11:40:00.578 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [386] ms
+05-May-2023 11:40:00.579 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 11:40:00.634 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [55] ms
+05-May-2023 11:40:00.634 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 11:40:00.688 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [54] ms
+05-May-2023 11:40:00.690 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 11:40:00.718 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [28] ms
+05-May-2023 11:40:00.732 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 11:40:01.052 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [320] ms
+05-May-2023 11:40:01.053 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 11:40:01.720 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 11:40:02.468 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.415] ms
+05-May-2023 11:40:02.473 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:40:02.486 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2328] milliseconds
+05-May-2023 11:42:39.028 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+05-May-2023 11:42:39.029 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:42:39.031 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 11:42:39.053 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:42:39.064 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:47:09.384 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 11:47:09.386 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 11:47:09.386 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 11:47:09.386 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 11:47:09.386 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 11:47:09.386 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 11:47:09.386 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 11:47:09.386 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 11:47:09.386 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 11:47:09.387 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:47:09.387 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:47:09.387 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 11:47:09.387 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 11:47:09.387 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 11:47:09.387 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 11:47:09.387 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 11:47:09.388 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 11:47:09.388 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:47:09.388 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:47:09.388 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/temp
+05-May-2023 11:47:09.389 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 11:47:09.812 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 11:47:09.851 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [632] milliseconds
+05-May-2023 11:47:09.888 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 11:47:09.889 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 11:47:09.896 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 11:47:10.225 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [327] ms
+05-May-2023 11:47:10.233 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 11:47:10.315 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [82] ms
+05-May-2023 11:47:10.317 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 11:47:10.340 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [23] ms
+05-May-2023 11:47:10.341 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 11:47:10.363 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [23] ms
+05-May-2023 11:47:10.364 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 11:47:10.641 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [278] ms
+05-May-2023 11:47:10.642 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 11:47:11.259 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 11:47:12.159 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.517] ms
+05-May-2023 11:47:12.167 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:47:12.182 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2330] milliseconds
+05-May-2023 11:49:43.629 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+05-May-2023 11:49:43.630 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:49:43.632 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 11:49:43.656 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:49:43.665 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:50:23.115 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 11:50:23.117 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 11:50:23.118 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 11:50:23.118 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 11:50:23.118 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 11:50:23.118 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 11:50:23.119 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 11:50:23.119 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 11:50:23.120 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 11:50:23.120 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:50:23.120 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:50:23.121 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 11:50:23.122 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 11:50:23.122 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 11:50:23.122 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 11:50:23.122 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 11:50:23.123 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 11:50:23.123 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:50:23.123 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:50:23.123 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/temp
+05-May-2023 11:50:23.124 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 11:50:23.515 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 11:50:23.552 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [596] milliseconds
+05-May-2023 11:50:23.580 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 11:50:23.581 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 11:50:23.588 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 11:50:23.911 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [322] ms
+05-May-2023 11:50:23.913 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 11:50:23.951 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [37] ms
+05-May-2023 11:50:23.951 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 11:50:24.017 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [66] ms
+05-May-2023 11:50:24.017 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 11:50:24.035 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [18] ms
+05-May-2023 11:50:24.036 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 11:50:24.313 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [276] ms
+05-May-2023 11:50:24.313 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 11:50:24.935 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 11:50:25.762 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.449] ms
+05-May-2023 11:50:25.766 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:50:25.785 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2233] milliseconds
+05-May-2023 11:52:44.989 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+05-May-2023 11:52:44.991 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:52:44.993 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 11:52:45.018 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:52:45.025 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:53:15.101 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 11:53:15.104 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 11:53:15.104 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 11:53:15.104 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 11:53:15.104 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 11:53:15.104 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 11:53:15.104 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 11:53:15.104 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 11:53:15.104 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 11:53:15.104 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:53:15.105 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:53:15.105 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 11:53:15.105 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 11:53:15.105 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 11:53:15.105 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 11:53:15.105 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 11:53:15.105 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 11:53:15.106 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:53:15.106 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:53:15.106 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/temp
+05-May-2023 11:53:15.108 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 11:53:15.410 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 11:53:15.434 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [491] milliseconds
+05-May-2023 11:53:15.459 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 11:53:15.460 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 11:53:15.467 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 11:53:15.752 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [284] ms
+05-May-2023 11:53:15.753 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 11:53:15.786 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [34] ms
+05-May-2023 11:53:15.786 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 11:53:15.831 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [45] ms
+05-May-2023 11:53:15.832 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 11:53:15.863 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [31] ms
+05-May-2023 11:53:15.864 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 11:53:16.274 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [410] ms
+05-May-2023 11:53:16.274 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 11:53:16.988 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 11:53:17.822 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.548] ms
+05-May-2023 11:53:17.827 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:53:17.842 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2408] milliseconds
+05-May-2023 11:55:57.523 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+05-May-2023 11:55:57.524 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:55:57.526 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 11:55:57.544 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:55:57.548 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:56:40.258 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 11:56:40.261 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 11:56:40.261 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 11:56:40.261 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 11:56:40.261 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 11:56:40.261 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 11:56:40.261 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 11:56:40.261 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 11:56:40.261 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 11:56:40.262 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:56:40.262 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:56:40.262 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 11:56:40.262 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 11:56:40.262 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 11:56:40.262 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 11:56:40.262 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 11:56:40.263 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 11:56:40.263 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:56:40.263 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 11:56:40.263 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/temp
+05-May-2023 11:56:40.264 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 11:56:40.638 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 11:56:40.660 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [568] milliseconds
+05-May-2023 11:56:40.689 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 11:56:40.689 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 11:56:40.699 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 11:56:41.023 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [324] ms
+05-May-2023 11:56:41.024 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 11:56:41.084 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [60] ms
+05-May-2023 11:56:41.087 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 11:56:41.107 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [20] ms
+05-May-2023 11:56:41.108 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 11:56:41.137 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [29] ms
+05-May-2023 11:56:41.141 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 11:56:41.462 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [322] ms
+05-May-2023 11:56:41.464 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 11:56:42.151 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 11:56:42.989 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.525] ms
+05-May-2023 11:56:42.993 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:56:43.004 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2343] milliseconds
+05-May-2023 11:59:25.518 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+05-May-2023 11:59:25.518 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:59:25.520 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 11:59:25.538 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 11:59:25.543 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:00:01.851 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 12:00:01.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 12:00:01.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 12:00:01.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 12:00:01.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 12:00:01.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 12:00:01.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 12:00:01.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 12:00:01.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 12:00:01.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:00:01.853 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:00:01.854 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 12:00:01.854 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 12:00:01.854 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 12:00:01.854 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 12:00:01.854 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 12:00:01.854 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 12:00:01.854 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:00:01.854 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:00:01.854 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/temp
+05-May-2023 12:00:01.855 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 12:00:02.204 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 12:00:02.227 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [542] milliseconds
+05-May-2023 12:00:02.267 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 12:00:02.267 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 12:00:02.278 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 12:00:02.639 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [360] ms
+05-May-2023 12:00:02.640 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 12:00:02.701 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [60] ms
+05-May-2023 12:00:02.701 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 12:00:02.748 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [47] ms
+05-May-2023 12:00:02.748 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 12:00:02.786 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [38] ms
+05-May-2023 12:00:02.786 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 12:00:03.192 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [406] ms
+05-May-2023 12:00:03.193 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 12:00:03.758 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 12:00:04.619 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.426] ms
+05-May-2023 12:00:04.622 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:00:04.633 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2405] milliseconds
+05-May-2023 12:02:45.122 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+05-May-2023 12:02:45.123 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:02:45.125 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 12:02:45.148 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:02:45.159 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:03:53.983 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 12:03:53.985 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 12:03:53.985 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 12:03:53.985 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 12:03:53.985 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 12:03:53.985 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 12:03:53.985 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 12:03:53.985 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 12:03:53.985 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 12:03:53.985 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:03:53.986 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:03:53.986 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 12:03:53.986 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 12:03:53.986 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 12:03:53.986 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 12:03:53.986 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 12:03:53.986 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 12:03:53.987 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:03:53.987 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:03:53.987 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/temp
+05-May-2023 12:03:53.988 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 12:03:54.297 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 12:03:54.321 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [495] milliseconds
+05-May-2023 12:03:54.352 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 12:03:54.353 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 12:03:54.369 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 12:03:54.685 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [315] ms
+05-May-2023 12:03:54.686 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 12:03:54.756 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [70] ms
+05-May-2023 12:03:54.767 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 12:03:54.799 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [32] ms
+05-May-2023 12:03:54.800 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 12:03:54.820 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [20] ms
+05-May-2023 12:03:54.820 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 12:03:55.124 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [304] ms
+05-May-2023 12:03:55.124 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 12:03:55.813 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 12:03:56.649 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.524] ms
+05-May-2023 12:03:56.653 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:03:56.683 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2361] milliseconds
+05-May-2023 12:06:41.376 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+05-May-2023 12:06:41.376 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:06:41.378 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 12:06:41.398 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:06:41.401 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:07:15.883 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 12:07:15.885 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 12:07:15.885 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 12:07:15.886 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 12:07:15.886 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 12:07:15.886 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 12:07:15.886 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 12:07:15.886 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 12:07:15.886 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 12:07:15.886 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:07:15.886 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:07:15.887 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 12:07:15.887 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 12:07:15.887 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 12:07:15.887 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 12:07:15.887 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 12:07:15.887 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 12:07:15.887 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:07:15.887 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:07:15.887 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/temp
+05-May-2023 12:07:15.889 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 12:07:16.247 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 12:07:16.274 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [555] milliseconds
+05-May-2023 12:07:16.303 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 12:07:16.304 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 12:07:16.311 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 12:07:16.666 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [353] ms
+05-May-2023 12:07:16.666 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 12:07:16.703 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [37] ms
+05-May-2023 12:07:16.703 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 12:07:16.734 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [31] ms
+05-May-2023 12:07:16.735 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 12:07:16.757 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [22] ms
+05-May-2023 12:07:16.758 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 12:07:17.047 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [288] ms
+05-May-2023 12:07:17.051 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 12:07:17.673 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 12:07:18.441 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.390] ms
+05-May-2023 12:07:18.444 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:07:18.462 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2187] milliseconds
+05-May-2023 12:09:59.941 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+05-May-2023 12:09:59.942 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:09:59.944 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 12:09:59.964 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:09:59.967 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:10:50.224 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 12:10:50.225 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 12:10:50.226 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 12:10:50.226 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 12:10:50.226 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 12:10:50.226 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 12:10:50.226 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 12:10:50.226 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 12:10:50.226 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 12:10:50.226 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:10:50.226 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:10:50.227 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 12:10:50.227 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 12:10:50.227 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 12:10:50.227 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 12:10:50.227 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 12:10:50.227 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 12:10:50.227 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:10:50.227 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia
+05-May-2023 12:10:50.227 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/temp
+05-May-2023 12:10:50.229 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 12:10:50.554 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 12:10:50.594 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [538] milliseconds
+05-May-2023 12:10:50.633 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 12:10:50.634 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 12:10:50.643 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 12:10:50.934 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [290] ms
+05-May-2023 12:10:50.935 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 12:10:51.016 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [81] ms
+05-May-2023 12:10:51.017 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 12:10:51.065 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [48] ms
+05-May-2023 12:10:51.065 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 12:10:51.112 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [46] ms
+05-May-2023 12:10:51.112 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 12:10:51.440 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [327] ms
+05-May-2023 12:10:51.440 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 12:10:52.083 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 12:10:52.797 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/PRUEBA3/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.357] ms
+05-May-2023 12:10:52.805 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:10:52.813 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2218] milliseconds
+05-May-2023 12:13:18.899 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+05-May-2023 12:13:18.899 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:13:18.901 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 12:13:18.927 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:13:18.934 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:27:53.697 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 12:27:53.717 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 12:27:53.718 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 12:27:53.718 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 12:27:53.719 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 12:27:53.719 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 12:27:53.719 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 12:27:53.719 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 12:27:53.719 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 12:27:53.719 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia
+05-May-2023 12:27:53.719 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia
+05-May-2023 12:27:53.733 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 12:27:53.734 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 12:27:53.734 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 12:27:53.734 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 12:27:53.734 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 12:27:53.734 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 12:27:53.734 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia
+05-May-2023 12:27:53.734 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia
+05-May-2023 12:27:53.734 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/temp
+05-May-2023 12:27:53.737 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 12:27:54.372 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 12:27:54.405 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [962] milliseconds
+05-May-2023 12:27:54.489 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 12:27:54.490 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 12:27:54.500 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 12:27:54.963 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [462] ms
+05-May-2023 12:27:54.964 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 12:27:55.063 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [97] ms
+05-May-2023 12:27:55.064 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 12:27:55.122 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [58] ms
+05-May-2023 12:27:55.122 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 12:27:55.147 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [25] ms
+05-May-2023 12:27:55.148 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 12:27:55.346 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [198] ms
+05-May-2023 12:27:55.346 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 12:27:55.849 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 12:27:56.614 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.267] ms
+05-May-2023 12:27:56.617 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:27:56.631 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2226] milliseconds
+05-May-2023 12:30:42.110 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+05-May-2023 12:30:42.110 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:30:42.112 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 12:30:42.130 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:30:42.134 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:32:23.785 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Nombre de la versión del servidor: Apache Tomcat/9.0.72
+05-May-2023 12:32:23.787 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:                      Feb 18 2023 09:25:13 UTC
+05-May-2023 12:32:23.787 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Número de versión de servidor:     9.0.72.0
+05-May-2023 12:32:23.787 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:                           Linux
+05-May-2023 12:32:23.787 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Versión de Systema Operativo:      4.19.0-24-amd64
+05-May-2023 12:32:23.787 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Arquitectura:                      amd64
+05-May-2023 12:32:23.787 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:                         /opt/jdk1.8.0_201/jre
+05-May-2023 12:32:23.787 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:                       1.8.0_201-b09
+05-May-2023 12:32:23.787 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Vededor JVM:                       Oracle Corporation
+05-May-2023 12:32:23.787 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:                     /home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia
+05-May-2023 12:32:23.788 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:                     /home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia
+05-May-2023 12:32:23.788 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.config.file=/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/conf/logging.properties
+05-May-2023 12:32:23.788 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-May-2023 12:32:23.788 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djdk.tls.ephemeralDHKeySize=2048
+05-May-2023 12:32:23.788 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-May-2023 12:32:23.788 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+05-May-2023 12:32:23.788 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dignore.endorsed.dirs=
+05-May-2023 12:32:23.792 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.base=/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia
+05-May-2023 12:32:23.793 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Dcatalina.home=/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia
+05-May-2023 12:32:23.793 INFORMACIÓN [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument:             -Djava.io.tmpdir=/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/temp
+05-May-2023 12:32:23.794 INFORMACIÓN [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent La biblioteca nativa de Apache Tomcat basada en ARP que permite un rendimiento óptimo en entornos de desarrollo no ha sido hallada en java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-May-2023 12:32:24.094 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.init Inicializando el manejador de protocolo ["http-nio-8081"]
+
+05-May-2023 12:32:24.134 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.load Server initialization in [505] milliseconds
+05-May-2023 12:32:24.175 INFORMACIÓN [main] org.apache.catalina.core.StandardService.startInternal Arrancando servicio [Catalina]
+05-May-2023 12:32:24.175 INFORMACIÓN [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.72]
+05-May-2023 12:32:24.184 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/docs] de la aplicación web
+05-May-2023 12:32:24.444 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/docs] has finished in [259] ms
+05-May-2023 12:32:24.445 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/manager] de la aplicación web
+05-May-2023 12:32:24.486 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/manager] has finished in [42] ms
+05-May-2023 12:32:24.486 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/host-manager] de la aplicación web
+05-May-2023 12:32:24.519 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/host-manager] has finished in [32] ms
+05-May-2023 12:32:24.522 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/ROOT] de la aplicación web
+05-May-2023 12:32:24.539 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/ROOT] has finished in [17] ms
+05-May-2023 12:32:24.539 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/examples] de la aplicación web
+05-May-2023 12:32:24.915 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/examples] has finished in [375] ms
+05-May-2023 12:32:24.915 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Desplegando el directorio [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] de la aplicación web
+05-May-2023 12:32:25.571 INFORMACIÓN [main] org.apache.jasper.servlet.TldScanner.scanJars Al menos un JAR, que se ha explorado buscando TLDs, aún no contenía TLDs. Activar historial de depuración para este historiador para una completa lista de los JARs que fueron explorados y de los que nos se halló TLDs. Saltarse JARs no necesarios durante la exploración puede dar lugar a una mejora de tiempo significativa en el arranque y compilación de JSP .
+05-May-2023 12:32:26.391 INFORMACIÓN [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/i0961775/Descargas/practicaObligatoria/apache-tomcat-9.0.72_copia/webapps/practicaObligatoria] has finished in [1.476] ms
+05-May-2023 12:32:26.395 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:32:26.405 INFORMACIÓN [main] org.apache.catalina.startup.Catalina.start Server startup in [2268] milliseconds
+05-May-2023 12:35:08.896 INFORMACIÓN [main] org.apache.catalina.core.StandardServer.await Se ha recibido un comando de apagado a través del puerto de apagado. Parando la instancia del Servidor.
+05-May-2023 12:35:08.897 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:35:08.899 INFORMACIÓN [main] org.apache.catalina.core.StandardService.stopInternal Parando servicio [Catalina]
+05-May-2023 12:35:08.922 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8081"]
+05-May-2023 12:35:08.932 INFORMACIÓN [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8081"]
